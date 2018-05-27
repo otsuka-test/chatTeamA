@@ -11,6 +11,7 @@
 	<h2>ログイン</h2>
 	<form action="/chat/login" method="POST">
 		<p>あ会員ID</p>
+		<p>・会員ID</p>
 		<input type="text" name="userId" value="${loginBean.userId}">
 		<p>パスワード</p>
 		<input type="text" name="password" value="${loginBean.password}">
