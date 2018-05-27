@@ -7,13 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>チャット研修プログラム</h1>
-	<h2>ログイン</h2>
-	<form action="/chat/login" method="POST">
-		<p>あ会員ID</p>
-		<p>・会員ID</p>
-		<input type="text" name="userId" value="${loginBean.userId}">
-		<p>パスワード</p>
+<h1>チャット研修プログラム</h1>
+    <h2>ログイン</h2>
+    <form action="/chat/login" method="POST">
+        <p>あ会員ID</p>
+        <p>・会員ID</p>
+        <p>あ/会員ID</p>
+        <input type="text" name="userId" value="${loginBean.userId}">
+        <p>パスワード</p>
 		<input type="text" name="password" value="${loginBean.password}">
 		<br>
 		<P>${loginBean.errorMessage}</P>
