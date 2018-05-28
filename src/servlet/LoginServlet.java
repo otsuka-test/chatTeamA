@@ -27,16 +27,16 @@ public class LoginServlet extends HttpServlet {
 		bean.setUserId("");
 		bean.setPassword("");
 
-		for (int i = 0; i < 10; i++) {
-			System.out.println(i);
-		}
-
-
 		int i = 0;
 
 		while(i < 9) {
 			System.out.println(i);
 		}
+
+		for (int i = 0; i < 10; i++) {
+			System.out.println(i);
+		}
+
 
 		req.setAttribute("loginBean", bean);
 		req.getRequestDispatcher("/WEB-INF/jsp/login.jsp").forward(req, res);
