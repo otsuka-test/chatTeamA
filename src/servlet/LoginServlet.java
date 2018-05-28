@@ -27,8 +27,7 @@ public class LoginServlet extends HttpServlet {
 		bean.setUserId("");
 		bean.setPassword("");
 
-		int i = 0;
-		while (i < 5 ) {
+		for (int i = 0; i < 5; i++) {
 			System.out.println(i);
 		}
 
