@@ -30,13 +30,10 @@ public class LoginServlet extends HttpServlet {
 		int i = 0;
 
 		while(i < 9) {
-<<<<<<< HEAD
 			System.out.println(i);
 		}
 
 		for (int i = 0; i < 10; i++) {
-=======
->>>>>>> branch 'feature-chat-teamA' of https://github.com/otsuka-test/chatTeamA
 			System.out.println(i);
 		}
 
